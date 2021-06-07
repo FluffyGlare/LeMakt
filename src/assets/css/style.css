@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    list-style: none;
+    text-decoration: none;    
+}
+
+/* header */
+.header {
+    background-color: #dbdbdb;
+    width: 100%;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px auto;
+    vertical-align: middle;
+}
+
+.col-header {
+    margin: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.logo, .working-hours {
+    display: flex;
+    flex-wrap: no-wrap;
+    align-items: center;
+}
+
+.logo p, .working-hours p {
+    margin: auto 10px;
+}
+
+a {
+    font-size: 24px;
+    text-decoration: none;
+    color: #000;
+}
+
+.contact-us{
+    display: flex;
+    flex-direction: column;
+}
+
+.phone-link {
+    font-size: 16px;
+    color: rgb(50, 14, 97);
+}
+
+.header-btn button {
+    width: 120px;
+    border-radius: 5px;
+}
+
+
+
