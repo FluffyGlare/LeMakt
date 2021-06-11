@@ -10,12 +10,15 @@
 </head>
 
 <body>
+
+    <!-- header -->
+
     <header class="header">
-        <div class="container">
+        <div class="header-container">
             <div class="col-header">
                 <div class="logo">
                     <div class="logo_img">
-                        <img src="../src/assets/img/logo.png" alt="#">
+                        <img src="../src/assets/img/header/logo.png" alt="#">
                     </div>
                     <p>Краткое описание деятельности компании</p>
                 </div>
@@ -30,19 +33,76 @@
             <div class="col-header">
                 <div class="working-hours">
                     <div class="working_hours_img">
-                        <img src="../src/assets/img/clock.png" alt="#">
+                        <img src="../src/assets/img/header/clock.png" alt="#">
                     </div>
                     <p>без выходных <span>9:00 - 18:00</span></p>
                 </div>
             </div>
             <div class="col-header">
                 <div class="contact-us">
-                    <a href="#"><img src="../src/assets/img/phone.png" alt="#">+7 (xxx) xxx-xx-xx</a>
+                    <a href="#"><img src="../src/assets/img/header/phone.png" alt="#">+7 (xxx) xxx-xx-xx</a>
                     <a class="phone-link" href="#">Заказать обратный звонок</a>
                 </div>
             </div>
         </div>
     </header>
+
+    <!-- main -->
+
+    <main class="main">
+        <div class="main-container">
+
+                <div class="col-main-title">
+                    <h1><span>Основной товар или услуга<br></span>за приемлемую цену</h1>
+                    <dv class="main-features">
+
+                        <div class="col-features">
+                            <div class="main-features-block">
+                                <img src="assets/img/main/icons/guaranty.png" alt="">
+                                <p>Высокое <br>качество</p>
+                            </div>
+                        </div>
+
+                        <div class="col-features">
+                            <div class="main-features-block">
+                                <img src="assets/img/main/icons/guaranty.png" alt="">
+                                <p>Лучшие <br>цены</p>
+                            </div>
+                        </div>
+
+                        <div class="col-features">
+                            <div class="main-features-block">
+                                <img class="small_img" src="assets/img/main/icons/guaranty.png">
+                                <p>Гарантия <br>1 год</p>
+                            </div>
+                        </div>
+
+                        <div class="col-features">
+                            <div class="main-features-block">
+                                <img class="small_img" src="assets/img/main/icons/delivery.png">
+                                <p>Быстрая <br>доставка</p>
+                            </div>
+                        </div>
+
+                    </dv>
+
+                </div>
+
+            <div class="col-main-form">
+                <form class="main-form">
+                    <h2>Запись на услугу <br><span>или заказ</span></h2>
+                    <input class="form-control" name="user_name" required type="text"
+                        placeholder="Введите ваше имя">
+                    <input class="form-control" name="user_phone" required type="text"
+                        placeholder="Введите телефон">
+                    <button class="form-control" name="submit" type="submit">Заказать</button>
+                    <p class="form_notice">Ваши данные конфиденциальны</p>
+                </form>
+            </div>
+
+        </div>
+        </div>
+    </main>
 
 
 
