@@ -62,7 +62,7 @@ a {
 
 /* main */
 main {
-    height: calc(100vh - 140px);
+    height: calc(100vh - 100px);
 
 }
 
@@ -128,4 +128,49 @@ main {
     margin-left: 1.8rem;
 }
 
+/* section */
+.products {
+    height: 100vh;
+    background: #dbdbdb;
+}
 
+.section_header h2 {
+   padding: 50px;
+}
+
+.slider {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: auto;
+}
+
+.slider-preview {
+    display: flex;
+    flex-direction: column;
+}
+
+.slider-content{
+   width: 80%;
+   margin: 50px auto; 
+}
+
+.slider-content-block {
+    display: none;
+    justify-content: space-around;
+}
+
+.active {
+    display: flex;
+}
+
+.content-block-specification li {
+    position: relative;
+    margin: 20px;
+}
+
+.content-block-specification button {
+    width: 120px;
+    border-radius: 5px;
+    margin-top: 30px;
+}
