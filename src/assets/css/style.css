@@ -128,7 +128,7 @@ main {
     margin-left: 1.8rem;
 }
 
-/* section */
+/* section products */
 .products {
     height: 100vh;
     background: #dbdbdb;
@@ -173,4 +173,40 @@ main {
     width: 120px;
     border-radius: 5px;
     margin-top: 30px;
+}
+
+/* section guarantees */
+
+.guarantees{
+    height: 100vh;
+}
+
+.guarantees h2{
+    margin: 50px auto;
+    font-size: 36px;
+    display: inline-block;
+}
+
+.guarantees-block{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px auto;
+}
+
+.guarantees-block-view {
+    display: block;
+    background:#292929;
+    color: #fff;
+    min-width: 240px;
+    margin: 50px;
+}
+
+.payment {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px auto;
+}
+
+.payment-item {
+    margin: 50px;
 }
