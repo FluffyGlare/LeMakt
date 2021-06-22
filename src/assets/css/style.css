@@ -10,8 +10,14 @@ body {
     background: rgb(243, 236, 139);
 }
 
+img {
+   max-width: 100%;
+   height: auto;
+}
+
 /* header */
 .header {
+    display: block;
     background-color: #dbdbdb;
     width: 100%;
     min-height: 100px;
@@ -62,7 +68,8 @@ a {
 
 /* main */
 main {
-    height: calc(100vh - 100px);
+    min-height: calc(100vh - 100px);
+    display: block;
 
 }
 
@@ -130,7 +137,8 @@ main {
 
 /* section products */
 .products {
-    height: 100vh;
+    display: block;
+    min-height: 100vh;
     background: #dbdbdb;
 }
 
@@ -178,7 +186,8 @@ main {
 /* section guarantees */
 
 .guarantees{
-    height: 100vh;
+    display: block;
+    min-height: 100vh;
 }
 
 .guarantees h2{
@@ -195,7 +204,7 @@ main {
 
 .guarantees-block-view {
     display: block;
-    background:#292929;
+    background:#615e5e;
     color: #fff;
     min-width: 240px;
     margin: 50px;
@@ -209,4 +218,56 @@ main {
 
 .payment-item {
     margin: 50px;
+}
+
+/* sale */
+
+.sale {
+    display: flex;
+    justify-content: space-around;
+    min-height: calc(100vh - 60px);
+    background: #dbdbdb;
+}
+
+.sale-container {
+    width: 60%;
+    margin: 100px;
+}
+
+.sale-container h4 {
+    margin: 10px;
+}
+
+.sale-title {
+    display: inline-block;
+    margin: 50px auto;
+}
+
+.timer1 {
+    background: #06ad0e;
+    margin: 20px auto;
+    width: 360px;
+    height: 120px;
+    border-radius: 10px;
+}
+
+.container1 {
+    display: flex;
+    justify-content: space-around;
+    font-size: 24px;
+}
+
+.numbers1 {
+    width: auto;
+    padding: 10px;
+}
+
+/* footer */
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    height: 60px;
+    position: relative;
 }
