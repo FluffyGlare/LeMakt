@@ -156,6 +156,7 @@ main {
 .slider-preview {
     display: flex;
     flex-direction: column;
+    cursor: pointer;
 }
 
 .slider-content{
