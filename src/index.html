@@ -322,6 +322,45 @@
             </div>
         </div>
     </div>
+    <!-- modal select product -->
+    <div class="popup-product">
+        <div class="popup-dialog">
+            <div class="popup-content ">
+                <button type="button" class="popup-close"><strong>&times;</strong></button>
+                <div class="popup-form">
+                    <form class="form" action="#">
+                      <h2>Выберите товар из списка</h2>
+                        <select name="productSelect" class="product-select">
+                            <option value="0">Товар №1</option>
+                            <option value="1">Товар №2</option>
+                            <option value="2">Товар №3</option>
+                            <option value="3">Товар №4</option>
+                        </select>  
+                        <button class="form-btn" name="submit" type="submit">Далее</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- modal buy product -->
+    <div class="popup-buy-product">
+        <div class="popup-dialog">
+            <div class="popup-content ">
+                <button type="button" class="popup-close"><strong>&times;</strong></button>
+                <div class="popup-form">
+                    <form class="form" action="#">
+                      <h3>Укажите количество</h3>
+                      <input class="form-input" name="user_name" required type="text" placeholder="1">
+                      <h3>Введите промокод</h3>
+                      <input class="form-input" name="user_phone" required type="text" placeholder="promo code">
+                      <br/>
+                      <button class="form-btn" name="submit" type="submit">Заказать</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <script src="../src/index.js"></script>
 </body>

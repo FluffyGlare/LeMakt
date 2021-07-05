@@ -296,6 +296,7 @@ footer {
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
   width: 600px;
+  min-height: 320px;
   background-color: #dbdbdb;
 }
 
@@ -357,3 +358,36 @@ footer {
     border-radius: 1rem;
   }
 
+  /* modal select product */
+
+.popup-product{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.product-select {
+    padding: 20px;
+    font-size: 24px;
+    font-weight: 700;
+    border: 1px solid #ffc600;
+    border-radius: 1rem;
+} 
+
+  /* modal buy product */
+
+.popup-buy-product{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+    background-color: rgba(0, 0, 0, 0.8);
+}
